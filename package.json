@@ -1,0 +1,22 @@
+{
+  "name": "dapp-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf ./cache && rimraf ./artifacts",
+    "compile": "npm run clean && hardhat compile",
+    "test": "npm run clean && hardhat test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eth-optimism/plugins": "^0.0.20",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.2",
+    "chai": "^4.3.4",
+    "hardhat": "^2.1.1",
+    "mocha": "^7.2.0"
+  }
+}
